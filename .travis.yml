@@ -1,11 +1,9 @@
 language: csharp
+dist: trusty
+sudo: required
 mono: none
 dotnet: 2.0.0
 script:
   - dotnet restore
   - dotnet build
   - dotnet test
-
-before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install libxml-checker-perl libdbd-pg-perl libperl-critic-perl libdevel-cover-perl
