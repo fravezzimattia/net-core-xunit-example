@@ -1,5 +1,7 @@
-sudo: required
 language: csharp
-solution: NetCoreXunitExample.sln
-mono:
-  - latest
+mono: none
+dotnet: 2.0.0
+script:
+  - dotnet restore
+  - dotnet build
+  - dotnet test
