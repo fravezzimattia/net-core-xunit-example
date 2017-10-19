@@ -6,4 +6,4 @@ dotnet: 2.0.0
 script:
   - dotnet restore
   - dotnet build
-  - dotnet test test\NetCorexUnitExample.Tests
+  - dotnet test test/NetCorexUnitExample.Tests
