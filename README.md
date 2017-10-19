@@ -1,4 +1,6 @@
 # NetCorexUnitExample
+[![Build Status](https://travis-ci.org/fravezzimattia/net-core-xunit-example.png?branch=dev)](https://travis-ci.org/fravezzimattia/net-core-xunit-example)
+
 An Example of [Net Core 2.0](https://github.com/dotnet/core) WebApi tested using [xUnit 2.2.0](https://github.com/xunit/xunit)
 
 For installation instructions see the ASP.NET Core [README.md](https://github.com/aspnet/Home)
